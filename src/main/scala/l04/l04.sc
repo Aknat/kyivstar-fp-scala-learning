@@ -17,14 +17,10 @@ val stringTime = "current time: " + "hour: " + hour + " min: " + min + " sec: " 
 val stringTimeA = s"current time:  $hour hour  $min min  $sec sec"
 //val stringTimeInt = s"current time: + $time"
 
-val left = 5
+val left = 2
 val right = 1
-assert(left == right)
+//assert(left == right)
 
-
-
-
-
-val a = 5
+val a = 1
 val x = 1
-assert(a == x)
+assert(a == x && left == right)
