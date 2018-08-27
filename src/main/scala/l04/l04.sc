@@ -5,7 +5,7 @@ val c = 0x15
 
 val time=12
 //val stringTime = "current time: " + time
-val stringTimeInt = s"current time: + $time"
+val stringTimeInt = s"current time: + $time"     // string interpolation
 
 
 
@@ -23,4 +23,11 @@ val right = 1
 
 val a = 1
 val x = 1
-assert(a == x && left == right)
+//assert(a == x && left == right)
+
+
+val z = 40/3.0d
+f"z: $z%.25f"
+
+
+

@@ -3,19 +3,20 @@
 
 """[\.]+?""".r
 
+var i = 0
+
+while (i < 7) {
+  println(i)
+  i += 2
+}
+
 //var i = 0
-
-//while (i < 3) {
-//  i += 1
-//  println(i)
-// }
-
-
+//
 //do {
-  //i += 1
-  //println(i)
-
-//} while (i < 3)
+//  i += 2
+//  println(i)
+//
+//} while (i < 5)
 
 //val numbers = Array(1,2,3)
 //
