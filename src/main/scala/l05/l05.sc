@@ -37,16 +37,16 @@ while (i < 7) {
 //  println(i)
 
 
-//for {
-//  x <- 1 to 10 by 2
-//  y <- 1 to 4
-//
-//  //if x !=2 && y ==2
-//
-//} {
-//  println(s"x: $x, y: $y")
-//
-//}
+for {
+  x <- 1 to 10 by 2
+  y <- 1 to 4
+
+  //if x !=2 && y ==2
+
+} {
+  println(s"x: $x, y: $y")
+
+}
 //
 //
 //for {
