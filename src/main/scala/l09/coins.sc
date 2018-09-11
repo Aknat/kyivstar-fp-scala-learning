@@ -8,4 +8,4 @@ def countChange(money: Int, coins: List[Int]): Int =
   else if (money == 0) 1
   else countChange(money - coins.head, coins) + countChange(money, coins.tail)
 
-countChange (money = 3, coins)
+countChange(3, coins)
