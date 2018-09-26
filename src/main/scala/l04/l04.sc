@@ -29,5 +29,6 @@ val x = 1
 val z = 40/3.0d
 f"z: $z%.25f"
 
-
-
+val someNumbers = Range(0, 10)
+val second = someNumbers(1)
+val last = someNumbers.last
