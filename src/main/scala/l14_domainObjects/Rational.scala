@@ -1,4 +1,4 @@
-package l14_patternMatching
+package l14_domainObjects
 
 case class Rational (n: Int, d: Int) {
 

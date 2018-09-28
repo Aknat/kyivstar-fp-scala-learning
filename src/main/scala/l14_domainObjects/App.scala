@@ -1,4 +1,4 @@
-package l14_patternMatching
+package l14_domainObjects
 
 object App {
   def main(args: Array[String]): Unit = {
