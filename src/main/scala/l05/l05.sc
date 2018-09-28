@@ -23,12 +23,12 @@ while (i < 7) {
 //for(i <- numbers) {
 //  println(i)
 //}
-//
-//val nums = 1 to 10
-//
-//for(i <- nums) {
-//  println(i)
-//}
+
+val nums = 1 to 10
+
+for(i <- nums) {
+  println(i)
+}
 
 
 
