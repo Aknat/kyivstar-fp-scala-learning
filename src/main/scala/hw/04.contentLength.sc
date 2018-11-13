@@ -6,9 +6,11 @@
 
 
 
-def lengthValidation(content: String, len: Int) = {
-  content.length <= len
-}
+def lengthValidation(content: String, len: Int) = content.length <= len
+
+
+Boolean
+String
 
 lengthValidation("qqqqq",160)
 
