@@ -11,9 +11,11 @@ import scala.math._
 
 def volume(radius: Double): Double = (4 * Pi) / 3 * pow(radius, 3)
 
-val marsvolume = volume(3390000)
+def volumeBig(radius: Double): BigDecimal =
+  BigDecimal(4) * BigDecimal(Pi) / BigDecimal(3) * (BigDecimal(radius) pow 3)
 
-marsvolume.toLong
+val marsvolume = volume(3390000)
+val marsvolumeBig = volumeBig(3390000)
 
 def weight(marsvol: Double, density: Double) = marsvol * density
 
