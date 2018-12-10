@@ -11,3 +11,5 @@ assert(boolResult)
 def hypotenuse2(a: Int, b: Int) = sqrt(pow(a, 2) + pow(b, 2))
 
 val h2 = hypotenuse2(3, 4)
+
+

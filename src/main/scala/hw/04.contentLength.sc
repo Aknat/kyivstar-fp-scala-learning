@@ -8,10 +8,6 @@
 
 def lengthValidation(content: String, len: Int) = content.length <= len
 
-
-Boolean
-String
-
 lengthValidation("qqqqq",160)
 
 //contentLengthValidation("qqqqqfibfebruerihrenreniroiejroighrubenoirhgurtbunvenrigisrbsn.sni.rngrktbnirnrninirngrkntkbnseinirtnrntbinsirninbkksnrinvlie.snri.ni.snr.ser.ln.lnblrhbvjfbvbsfkvbkdfbvn",160)

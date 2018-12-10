@@ -1,3 +1,5 @@
+import scala.math.BigInt
+
 def func(a: Int, b: Int): Double = {
   val s1 = a * a
   println(s1)
@@ -14,3 +16,15 @@ val y = func(2, 3)
 def func2(a: Int, b: Int) = (a * a - b * b) / 2.0
 
 val y2 = func2(2, 3)
+
+
+BigInt.probablePrime(100, scala.util.Random)
+
+"Hello"(0)
+
+"Harry".patch(1,"ung",2) ;
+
+
+
+
+

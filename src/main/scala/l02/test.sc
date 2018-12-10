@@ -27,3 +27,9 @@ def sqr(a: Int) = a * a
 println(sqr(3))
 
 
+def matchTest(x: Int): String = x match {
+  case 1 => "one"
+  case 2 => "two"
+  case _ => "many"
+}
+matchTest(3)
